@@ -1,0 +1,15 @@
+<resources>
+    <!-- Launch theme: the brand-green splash with the logo, kept on screen until the page has
+         painted (MainActivity). -->
+    <style name="Theme.Mustard.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Mustard</item>
+    </style>
+
+    <!-- Light, so the web view reports prefers-color-scheme: light (values-night has the dark one). -->
+    <style name="Theme.Mustard" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/pageBackground</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+</resources>

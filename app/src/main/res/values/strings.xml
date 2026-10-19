@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mustard</string>
+    <string name="load_error_title">Can’t load Mustard</string>
+    <string name="load_error_message">Check your internet connection and try again.</string>
+    <string name="try_again">Try Again</string>
+</resources>

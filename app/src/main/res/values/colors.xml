@@ -1,0 +1,8 @@
+<resources>
+    <!-- Keep in step with ../website: theme_color / background_color in public/manifest.json,
+         and background / accent / onAccent in src/constants/theme.ts. -->
+    <color name="brand">#0F3E2F</color>
+    <color name="pageBackground">#FFFFFF</color>
+    <color name="accent">#E1AD01</color>
+    <color name="onAccent">#1A1400</color>
+</resources>
